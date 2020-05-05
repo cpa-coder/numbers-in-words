@@ -2,6 +2,19 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>DebitExpress.NumbersInWords</Title>
+        <Authors>Ogie Galicia</Authors>
+        <Description>This library converts numbers to it equivalent words.</Description>
+        <Copyright>DebitExpress©2020</Copyright>
+        <PackageProjectUrl>https://github.com/debitexpress-business/numbers-in-words</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/debitexpress-business/numbers-in-words.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>c# numbers to word converter net core</PackageTags>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\DebitExpress.NumbersInWords.xml</DocumentationFile>
     </PropertyGroup>
 
 </Project>

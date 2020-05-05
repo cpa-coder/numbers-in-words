@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebitExpress.NumbersInWords", "DebitExpress.NumbersInWords\DebitExpress.NumbersInWords.csproj", "{EE75254F-FE02-4B36-B59F-9F66A3B30F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebitExpress.NumbersInWords.Tests", "DebitExpress.NumbersInWords.Tests\DebitExpress.NumbersInWords.Tests.csproj", "{C0EFF252-ED0F-4237-88E0-97620708A1F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE75254F-FE02-4B36-B59F-9F66A3B30F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE75254F-FE02-4B36-B59F-9F66A3B30F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE75254F-FE02-4B36-B59F-9F66A3B30F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE75254F-FE02-4B36-B59F-9F66A3B30F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EFF252-ED0F-4237-88E0-97620708A1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EFF252-ED0F-4237-88E0-97620708A1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EFF252-ED0F-4237-88E0-97620708A1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EFF252-ED0F-4237-88E0-97620708A1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
